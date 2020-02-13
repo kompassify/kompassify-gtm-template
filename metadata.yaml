@@ -1,5 +1,5 @@
 homepage: "https://kompassify.com"
 documentation: "https://kompassify.com/documentation"
 versions:
-  - sha: 5f02a788b90ae804f86b04aa24af8937e567874a
+  - sha: 04345b7a00d77716ac17e303bf803402c8b6da54
     changeNotes: Initial release.
