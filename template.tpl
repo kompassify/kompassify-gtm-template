@@ -36,7 +36,13 @@ ___TEMPLATE_PARAMETERS___
     "displayName": "Kompassify Accountid",
     "simpleValueType": true,
     "valueHint": "Accountid",
-    "help": "Please type your kompassify account id you can find it here https://dashboard.kompassify.com/#accountid"
+    "help": "If you don\u0027t know how to find your kompassify account ID follow this url: https://dashboard.kompassify.com/#accountid",
+    "notSetText": "Please type your kompassify account id",
+    "valueValidators": [
+      {
+        "type": "NON_EMPTY"
+      }
+    ]
   }
 ]
 
@@ -51,6 +57,7 @@ const accountId = data.accountId;
 setInWindow('KOMPASSIFY_ACCOUNT_ID', data.accountId, true);
 const url = 'https://player.kompassify.com/kompassifyPlayer.js';
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
+
 
 ___WEB_PERMISSIONS___
 
