@@ -52,10 +52,6 @@ setInWindow('KOMPASSIFY_ACCOUNT_ID', data.accountId, true);
 const url = 'https://player.kompassify.com/kompassifyPlayer.js';
 injectScript(url, data.gtmOnSuccess, data.gtmOnFailure, url);
 
-// Call data.gtmOnSuccess when the tag is finished.
-data.gtmOnSuccess();
-
-
 ___WEB_PERMISSIONS___
 
 [
