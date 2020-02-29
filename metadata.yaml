@@ -1,5 +1,5 @@
 homepage: "https://kompassify.com"
 documentation: "https://github.com/kompassify/kompassify-gtm-template/blob/master/README.md"
 versions:
-  - sha: 0ad7a2f4b74c432ac04e27b936a6838143484f3a
+  - sha: 92ca723dffa13c57c10b670e2261b9f6a748fd84
     changeNotes: Initial release.
