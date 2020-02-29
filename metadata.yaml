@@ -1,5 +1,5 @@
 homepage: "https://kompassify.com"
-documentation: "https://docs.google.com/document/d/1sSQHZBXVvBJZ_AAnKJ59C8djgBZgBaPE6aZHI4wGP1I/edit?usp=sharing"
+documentation: "https://github.com/kompassify/kompassify-gtm-template/blob/master/README.md"
 versions:
   - sha: 7b8ce778ad0a588960889db76e3481b9efdd7fa1
     changeNotes: Initial release.
